@@ -13,8 +13,8 @@
 		5F0626E4263EB22100195CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0626E2263EB22100195CAC /* Main.storyboard */; };
 		5F0626E6263EB22300195CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0626E5263EB22300195CAC /* Assets.xcassets */; };
 		5F0626E9263EB22300195CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0626E7263EB22300195CAC /* LaunchScreen.storyboard */; };
-		5F0626F6263FA84600195CAC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0626F5263FA84600195CAC /* ProfileView.swift */; };
-		5F96539C263FF35F00F2BBDD /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F96539B263FF35F00F2BBDD /* ProfileView.xib */; };
+		5F6B748A264C53FA002AEB96 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B7489264C53FA002AEB96 /* ProfileView.xib */; };
+		5F6B7491264C55D3002AEB96 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B7490264C55D3002AEB96 /* ProfileView.swift */; };
 		5F96539F26400E4500F2BBDD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F96539E26400E4500F2BBDD /* Profile.storyboard */; };
 		5F9653A226400E6600F2BBDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9653A126400E6600F2BBDD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +28,8 @@
 		5F0626E5263EB22300195CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0626E8263EB22300195CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0626EA263EB22300195CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F0626F5263FA84600195CAC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		5F96539B263FF35F00F2BBDD /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileView.xib; path = ../../../../../../../.Trash/ProfileView.xib; sourceTree = "<group>"; };
+		5F6B7489264C53FA002AEB96 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		5F6B7490264C55D3002AEB96 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5F96539E26400E4500F2BBDD /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		5F9653A126400E6600F2BBDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +71,8 @@
 				5F0626E5263EB22300195CAC /* Assets.xcassets */,
 				5F0626E7263EB22300195CAC /* LaunchScreen.storyboard */,
 				5F0626EA263EB22300195CAC /* Info.plist */,
-				5F0626F5263FA84600195CAC /* ProfileView.swift */,
-				5F96539B263FF35F00F2BBDD /* ProfileView.xib */,
+				5F6B7489264C53FA002AEB96 /* ProfileView.xib */,
+				5F6B7490264C55D3002AEB96 /* ProfileView.swift */,
 				5F96539E26400E4500F2BBDD /* Profile.storyboard */,
 				5F9653A126400E6600F2BBDD /* ProfileViewController.swift */,
 			);
@@ -136,8 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F96539C263FF35F00F2BBDD /* ProfileView.xib in Resources */,
 				5F0626E9263EB22300195CAC /* LaunchScreen.storyboard in Resources */,
+				5F6B748A264C53FA002AEB96 /* ProfileView.xib in Resources */,
 				5F96539F26400E4500F2BBDD /* Profile.storyboard in Resources */,
 				5F0626E6263EB22300195CAC /* Assets.xcassets in Resources */,
 				5F0626E4263EB22100195CAC /* Main.storyboard in Resources */,
@@ -151,9 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0626F6263FA84600195CAC /* ProfileView.swift in Sources */,
 				5F0626E1263EB22100195CAC /* ViewController.swift in Sources */,
 				5F9653A226400E6600F2BBDD /* ProfileViewController.swift in Sources */,
+				5F6B7491264C55D3002AEB96 /* ProfileView.swift in Sources */,
 				5F0626DD263EB22100195CAC /* AppDelegate.swift in Sources */,
 				5F0626DF263EB22100195CAC /* SceneDelegate.swift in Sources */,
 			);
